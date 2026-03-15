@@ -1,0 +1,6 @@
+Oye we hazme puro front menu html usando boostrap enfocado en celus scale, con estos datos we:
+
+- Pagina web: https://new.abb.com/mx
+- Reclutamiento ABB: 8116903357
+- Pregunta por nuestras vacentes: 8182547528
+- Agenda una entrevista: 81180116792
