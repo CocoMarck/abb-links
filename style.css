@@ -10,7 +10,7 @@ body {
 .container-mobile {
     width: 100%;
     max-width: 400px;
-    padding: 20px;
+    padding: 64px 20px 20px 20px; /* 64px arriba deja libre la zona del logo */
     text-align: center;
 }
 .btn-custom {
