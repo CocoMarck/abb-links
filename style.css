@@ -33,12 +33,16 @@ body {
     color: white;
     transform: translateY(-2px);
 }
-.logo-placeholder {
+.text-and-logo {
     font-size: 2rem;
     font-weight: bold;
     color: #ff0000;
     margin-bottom: 30px;
 }
+.text-and-logo img {
+    width: 4rem;
+}
+
 
 /* Lista simple con fondo gris */
 .simple-list-box {
