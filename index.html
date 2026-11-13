@@ -4,92 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú de Enlaces ABB</title>
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts (Inter) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f8f9fa;
-            font-family: 'Inter', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-        .container-mobile {
-            width: 100%;
-            max-width: 400px;
-            padding: 20px;
-            text-align: center;
-        }
-        .btn-custom {
-            background-color: #ffffff;
-            color: #333;
-            border: 1px solid #dee2e6;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 12px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        }
-        .btn-custom:hover {
-            background-color: #ff0000; /* Color distintivo de la marca */
-            color: white;
-            transform: translateY(-2px);
-        }
-        .logo-placeholder {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #ff0000;
-            margin-bottom: 30px;
-        }
-    </style>
+
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
+<!-- SVG esquina superior derecha -->
+<div class="svg-top-right">
+    <img src="./icons/abb-logo.svg" alt="ABB">
+</div>
+
+<!-- La data importante -->
 <div class="container-mobile">
     <div class="logo-placeholder">RECLUTAMIENTO ABB</div>
 
+    <!-- Sección Vacantes disponibles -->
     <div class="mb-4 text-center">
-        <p class="fw-bold text-uppercase small text-muted mb-2">Vacantes Disponibles</p>
-        <ul class="list-unstyled">
-            <li class="mb-1">✅ Ayudantes generales</li>
-            <li class="mb-1">✅ Almacenistas</li>
-            <li class="mb-1">✅ Técnicos</li>
+        <p class="fw-bold text-uppercase small text-muted mb-2 text-center">Vacantes Disponibles</p>
+        <ul class="simple-list-box list-unstyled mb-0">
+            <li class="mb-1">✅ Ayudante General</li>
+            <li class="mb-1">✅ Ayudante General (Fin de semana)</li>
+            <li class="mb-1">✅ Materialista</li>
+            <li class="mb-1">✅ Inspector de Calidad</li>
+            <li class="mb-1">✅ Coordinador de Almacén</li>
+            <li class="mb-1">✅ Entrenador</li>
+            <li class="mb-1">✅ Facilities</li>
+            <li class="mb-1">✅ Técnico Eléctrico</li>
         </ul>
     </div>
 
-    <p class="text-muted mb-4">Selecciona una opción para contactarnos</p>
+    <!-- Sección contacto 
+    Respaldo de simbolos: 💬
+    -->
+    <p class="text-muted mb-4">¡Contáctenos y agenda tu entrevista!</p>
+
+    <a href="https://wa.me/528182547528" target="_blank" class="btn-custom d-flex flex-column">
+        <span class="fw-bold">
+            <img src="./icons/whatsapp-logo-bold-svgrepo-com.svg" width="20" alt="whatsapp-logo">RECLUTAMIENTO Y VACANTES APODACA 
+        </span>
+        <span class="small text-muted">+52 81 8254 7528</span>
+    </a>
+
+    <a href="https://wa.me/528116903357" target="_blank" class="btn-custom d-flex flex-column">
+        <span class="fw-bold">
+            <img src="./icons/whatsapp-logo-bold-svgrepo-com.svg" width="20" alt="whatsapp-logo">RECLUTAMIENTO JUÁREZ 
+        </span>
+        <span class="small text-muted">+52 81 1690 3357</span>
+    </a>
+
+    <a href="https://wa.me/528118016792" target="_blank" class="btn-custom d-flex flex-column">
+        <span class="fw-bold">
+            <img src="./icons/whatsapp-logo-bold-svgrepo-com.svg" width="20" alt="whatsapp-logo"> VACANTES JUÁREZ
+        </span>
+        <span class="small text-muted">+52 81 1801 6792</span>
+    </a>
 
     <a href="https://new.abb.com/mx" target="_blank" class="btn-custom">
         🌐 Visitar Página Web
     </a>
 
-    <a href="https://wa.me/528116903357" target="_blank" class="btn-custom d-flex flex-column">
-        <span class="fw-bold">💬 Reclutamiento ABB: </span>
-        <span class="small text-muted">+52 81 1690 3357</span>
-    </a>
-
-    <a href="https://wa.me/528182547528" target="_blank" class="btn-custom d-flex flex-column">
-        <span class="fw-bold">💬 Preguntar por Vacantes: </span>
-        <span class="small text-muted">+52 81 8254 7528</span>
-    </a>
-
-    <a href="https://wa.me/528118016792" target="_blank" class="btn-custom d-flex flex-column">
-        <span class="fw-bold">💬 Agenda una Entrevista: </span>
-        <span class="small text-muted">+52 81 1801 6792</span>
-    </a>
-
+    <!-- Footer -->
     <footer class="mt-5 text-muted small">
         &copy; 2026 Enlaces de Contacto
     </footer>
 </div>
 
+<!-- Boostrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
